@@ -57,6 +57,9 @@ body{
     align-items: center;
     justify-content: space-around;
 }
+.img{
+    width: 358px;
+}
 .sawTrailer{
     color: #7DBACD;
     width: 157px;
@@ -248,6 +251,10 @@ body{
     flex-direction: row;
     align-items: center;
 }
+.actorImg{
+    width: 100px;
+    height: 100px;
+}
 .nameRus{
     font-weight: bold;
     font-size: 16px;
@@ -262,6 +269,7 @@ body{
     line-height: 19px;
     color: #A5A5A5;
     width: 133px;
+    margin-top: 6px;
     margin-left: 20px;
 }
 
@@ -284,6 +292,15 @@ body{
     justify-content: space-between;
     margin-bottom: 100px;
 }
+.divNewsBox1{
+    width: 260px;
+    height: 160px;
+    background-color: #FFFFFF;
+    color: black;
+}
+.arrow{
+    display: none;
+}
 .divNewsBox{
     width: 260px;
     height: 160px;
@@ -297,6 +314,11 @@ body{
     margin: 0px 30px;
     margin-top: 30px;
 }
+.new{ 
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 16px;
+}
 
 .signature{
     width: 1135px;
@@ -305,6 +327,8 @@ body{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    font-size: 20px;
+    line-height: 23px;
 }
 
 
@@ -352,17 +376,20 @@ body{
     
     .divContent{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: start;
-        margin-top: 98px;
-        margin-bottom: 93px;
-        width: 1135px;
+        margin-top: 30px;
+        margin-bottom: 49px;
+        width: 321px;
     }
     .divContentLeft{
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
+    }
+    .img{
+        width: 319px;
     }
     .sawTrailer{
         color: #7DBACD;
@@ -371,29 +398,35 @@ body{
         line-height: 19px;
     }
     .buttonTrailer{
-        display: none;
+        display: flex;
         text-decoration: none;
         /* display: flex; */
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
-        margin-top: 25px;
+        margin-top: 28px;
+        margin-bottom: 58px;
     }
     
     .divContentRight{
-        margin-left: 60px;
+        /* display: flex;
+        flex-direction: column;
+        align-items: center; */
+        margin-left: 0px;
+        width: 321px;
     }
     .h1{
         font-weight: 900;
         font-size: 36px;
         line-height: 42px;
-        margin-bottom: 12px;
+        margin-bottom: 16px;
+        width: 319px;
     }
     .divInLine{
         display: flex;
         flex-direction: row;
         align-content: center;
-        margin-bottom: 33px;
+        margin-bottom: 21px;
     }
     .mk{
         font-weight: normal;
@@ -402,6 +435,7 @@ body{
         color: #A5A5A5;
     }
     .age18{
+        display: none;
         margin-left: 19px;
         font-size: 18px;
         line-height: 21px;
@@ -409,8 +443,8 @@ body{
     }
     .content{
         margin-left: 2px;
-        width: 514px;
-        height: 147px;
+        width: 321px;
+        height: 210px;
         font-weight: normal;
         font-size: 14px;
         line-height: 150%;
@@ -438,9 +472,9 @@ body{
     }
     .divLarge{
         display: flex;
-        flex-direction: row;
-        margin-top: 16px;
-        margin-bottom: 50px;
+        flex-direction: column;
+        margin-top: 14px;
+        margin-bottom: 40px;
     }
     
     .divContentRightBottom{
@@ -474,7 +508,7 @@ body{
         line-height: 21px;
     }
     .buttonTrailer2{
-        display: flex;
+        display: none;
         width: 196px;
         height: 25px;
         text-decoration: none;
@@ -490,12 +524,12 @@ body{
     }
     
     .divActor{
-        width: 1135px;
+        width: 321px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        margin-top: 70px;
-        margin-bottom: 100px;
+        margin-top: 42px;
+        margin-bottom: 55px;
     }
     .actor{
         font-weight: 900;
@@ -518,7 +552,7 @@ body{
     }
     .actorRow{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content:space-between;
         align-items: flex-start;
     }
@@ -550,17 +584,21 @@ body{
         align-items: flex-start;
     }
     .actorBox{
-        margin-top: 30px;
+        margin-top: 20px;
         display: flex;
         flex-direction: row;
         align-items: center;
+    }
+    .actorImg{
+        width: 60px;
+        height: 60px;
     }
     .nameRus{
         font-weight: bold;
         font-size: 16px;
         line-height: 19px;
         color: #7DBACD;
-        width: 128px;
+        width: 180px;
         margin-left: 21px;
     }
     .nameEng{
@@ -576,14 +614,14 @@ body{
         background-color: #F3F3F3;
     }
     .divNews{
-        width: 1135px;
+        width: 321px;
         display: flex;
         flex-direction: column;
         color: black;
     }
     .h2NewsTitle{
-        margin-top: 70px;
-        margin-bottom: 65px;
+        margin-top: 53px;
+        margin-bottom: 40px;
     }
     .divLineNews{
         display: flex;
@@ -591,7 +629,20 @@ body{
         justify-content: space-between;
         margin-bottom: 100px;
     }
+    .divNewsBox1{
+        width: 260px;
+        height: 160px;
+        background-color: #FFFFFF;
+        color: black;
+    }
+    .arrow{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
     .divNewsBox{
+        display: none;
         width: 260px;
         height: 160px;
         background-color: #FFFFFF;
@@ -606,11 +657,13 @@ body{
     }
     
     .signature{
-        width: 1135px;
+        width: 321px;
         height: 102px;
         display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+        flex-direction: column;
+        justify-content: center;
         align-items: center;
+        font-size: 20px;
+        line-height: 23px;
     }
 }
